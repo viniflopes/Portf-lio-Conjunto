@@ -1,0 +1,42 @@
+.devs {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    margin: 5% 0 2% 5%;
+    background-color: whitesmoke;
+    grid-gap: 5%;
+}
+.dev__Matheus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black;
+    border-right: solid black;
+    background-color: rgb(105,89,205);
+}
+.dev__Matheus img {
+    width: 40%;
+    height: 80%;
+}
+.dev__Vinicius {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black;
+    border-left: solid black;
+    background-color: rgba(255, 166, 1, 0.884);
+}
+
+.dev__Vinicius img {
+    width: 50%;
+}
+
+.infos {
+    font-size: 25px;
+    border-top: solid black;
+    border-bottom: solid black;
+    text-align: center;
+}
+
