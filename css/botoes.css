@@ -1,0 +1,35 @@
+.conteiner__Pai {
+    width: 80%;
+    margin: 1% 5% 0 5%;
+}
+.conteiner__Filho{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    gap: 5%;
+}
+.text_geral {
+    font-size: 1.4rem;
+}
+.conteiner__GitHub {
+    display: flex;
+    justify-content: center;
+    gap: 4%;
+    margin-bottom: 2%;
+}
+.separador {
+}
+
+.conteiner__Portfolio {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 2%;
+}
+
+.click__Button {
+    text-decoration: none;
+    width: 25px;
+    height: 25px;
+    background: ;
+    border-radius: 50%;
+}

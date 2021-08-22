@@ -2,9 +2,9 @@
     width: 80%;
     display: grid;
     grid-template-columns: 40% 20% 40%;
-    margin: 5% 0 2% 5%;
+    margin: 5% 5% 1% 5%;
     background-color: whitesmoke;
-    grid-gap: 5%;
+    gap: 5%;
 }
 .dev__Matheus {
     width: 100%;
@@ -35,8 +35,8 @@
 
 .infos {
     font-size: 25px;
-    border-top: solid black;
-    border-bottom: solid black;
+    border-top: dotted black;
+    border-bottom: dotted black;
     text-align: center;
 }
 

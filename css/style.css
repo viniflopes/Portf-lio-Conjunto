@@ -4,63 +4,9 @@
     box-sizing: border-box;
     font-family: 'Open Sans Condensed', sans-serif;
 }
-
-.header__top{
+main {
+    margin: 0;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.logo {
-    margin: 1% 0 0 1%;
-    text-decoration: none;
-    font-size: 25px;
-    padding: .2rem;
-    border-style:dotted groove groove dotted;
-    border-color: rgb(105,89,205);
-}
-.logo:hover {
-    border-style:groove dotted dotted groove;
-    transition: all 0.1s ease-in-out;
-}
-.perfil__conteiner {
-    margin: 1% 0 0 0;
-    font-size: 20px;
-    font-weight: bolder;
-}
-
-.perfil__Um {
-    text-decoration: none;
-    margin-right: 8rem;
-    color: rgb(105,89,205);
-}
-
-.perfil__Dois {
-    text-decoration: none;
-    color: rgba(255, 166, 1, 0.884);
-}
-
-.perfil__Dois:hover {
-    border-bottom: solid rgb(105,89,205);
-	transition: all 0.1s ease-in-out;
-}
-.perfil__Um:hover {
-    border-bottom: solid rgba(255, 166, 1, 0.884);
-	transition: all 0.1s ease-in-out;
-}
-.search__button {
-    display: flex;
-    width: 15%;
-    height: 30px;
-    margin: 1% 1% 0 0;
-}
-/* .search {
-
-} */
-.button {
-    border-color: rgba(255, 166, 1, 0.884);
-    background-color: rgba(255, 166, 1, 0.884);
-    font-size: 18px;
-    width: 35%;
-    color: white;
+    flex-direction: column;
+    justify-content: center;
 }
